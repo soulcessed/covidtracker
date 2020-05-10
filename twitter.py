@@ -25,7 +25,8 @@ while 1:
     deaths = container[1].text.strip()
     recovered = container[2].text.strip()
 
-    mundo = ("🌎 Total de casos no Mundo: \n"+ \
+    mundo = ("#covid", "#corona", "#covid19" "\n"
+        "🌎 Total de casos no Mundo: \n"+ \
           "Casos confirmados: " + cases + "\n" + \
           "Óbitos: " + deaths + "\n" + \
           "Recuperações: " + recovered + "\n\n") 
